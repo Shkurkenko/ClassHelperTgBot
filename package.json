@@ -1,0 +1,21 @@
+{
+  "name": "tgbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "request": "^2.88.2",
+    "telegraf": "^3.39.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
